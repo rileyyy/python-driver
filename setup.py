@@ -21,6 +21,8 @@ setup(
     url='https://github.com/lakeshorecryotronics/python-driver',
     install_requires=['pyserial>=3.0',
                       'iso8601',
+                      'pyserial',
+                      'packaging',
                       "enum34;python_version<'3.4'",
                       'wakepy>=0.4.0'],
     classifiers=['Programming Language :: Python :: 3']
